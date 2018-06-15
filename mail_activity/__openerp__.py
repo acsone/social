@@ -22,5 +22,6 @@
     ],
     "qweb": [
         'static/src/xml/mail_activity.xml',
+        'static/src/xml/systray.xml',
     ],
 }

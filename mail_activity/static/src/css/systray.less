@@ -1,0 +1,41 @@
+// Navbar icon and dropdown
+.o_mail_navbar_item {
+        .o_activity_filter_button {
+            .btn-link;
+            padding: 2px;
+        }
+        .o_no_activity {
+            cursor: initial;
+            .o-align-items(center);
+            color: grey;
+            opacity: 0.5;
+            padding: 3px;
+        }
+        .o_mail_navbar_dropdown_channels {
+            .o-flex(0, 1, auto);
+            max-height: 400px;
+            min-height: 50px;
+            overflow-y: auto;
+
+            @media (min-width: @screen-sm-min) {
+                .o_mail_channel_preview {
+                    height: 50px;
+                    padding: 5px;
+                    .o_mail_channel_image {
+                        width: 40px;
+                    }
+                    .o_channel_info {
+                        margin-left: 10px;
+                        .o_channel_title {
+                            .o_last_message_date {
+                                padding-top: 2px;
+                                font-size: x-small;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
