@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from datetime import date, datetime, timedelta
 from openerp import api, fields, models
+import openerp
 
 
 def message_post_with_view(records, views_or_xmlid, **kwargs):
@@ -202,6 +203,7 @@ class MailActivity(models.Model):
         parameter, therefore setting context to feedback """
         return self.action_feedback()
 
+    @api.multi
     def action_feedback(self, feedback=False):
         message = self.env['mail.message']
         if feedback:
@@ -218,7 +220,7 @@ class MailActivity(models.Model):
             message |= record.message_ids[0]
 
         self.unlink()
-        return message.ids and message.ids[0] or False
+        return {'type': 'ir.actions.act_window_close'}
 
     @api.multi
     def action_close_dialog(self):
