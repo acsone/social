@@ -16,6 +16,7 @@ class EmailTemplatePlaceholder(models.Model):
         comodel_name="ir.model",
         string="Model",
         required=True,
+        ondelete="cascade",
     )
     placeholder = fields.Char(
         required=True,

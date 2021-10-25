@@ -50,6 +50,7 @@
                 <field name="model_id" />
                 <group>
                     <filter
+                        name="model_id"
                         string="Model"
                         domain="[]"
                         context="{'group_by':'model_id'}"

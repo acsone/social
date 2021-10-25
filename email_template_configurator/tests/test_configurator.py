@@ -31,6 +31,7 @@ class TestConfigurator(TransactionCase):
                 "placeholder_id",
                 {
                     "placeholder_id": "1",
+                    "placeholder_value": False,
                 },
             )["value"]
             self.assertEqual(res["placeholder_value"], vals["placeholder"])

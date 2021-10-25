@@ -5,10 +5,10 @@
     "name": "Email Template Configurator",
     "summary": """
         Simplifies use of placeholders in email templates""",
-    "version": "11.0.1.0.0",
+    "version": "14.0.1.0.0",
     "license": "AGPL-3",
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/social",
+    "website": "https://github.com/OCA/mozaik",
     "depends": [
         "mail",
     ],
