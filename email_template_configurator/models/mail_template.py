@@ -6,17 +6,16 @@ from odoo import api, fields, models
 
 class MailTemplate(models.Model):
 
-    _inherit = 'mail.template'
+    _inherit = "mail.template"
 
     # Fake field for auto-completing placeholder
     placeholder_id = fields.Many2one(
-        comodel_name='email.template.placeholder',
+        comodel_name="email.template.placeholder",
         string="Placeholder",
     )
-    placeholder_value = fields.Char(
-    )
+    placeholder_value = fields.Char()
 
-    @api.onchange('placeholder_id')
+    @api.onchange("placeholder_id")
     def _onchange_placeholder_id(self):
         for tmpl in self:
             if tmpl.placeholder_id:

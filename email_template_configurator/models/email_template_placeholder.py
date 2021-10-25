@@ -6,20 +6,20 @@ from odoo import fields, models
 
 class EmailTemplatePlaceholder(models.Model):
 
-    _name = 'email.template.placeholder'
-    _description = 'Email Template Placeholder'
+    _name = "email.template.placeholder"
+    _description = "Email Template Placeholder"
 
     name = fields.Char(
         required=True,
     )
     model_id = fields.Many2one(
-        comodel_name='ir.model',
-        string='Model',
+        comodel_name="ir.model",
+        string="Model",
         required=True,
     )
     placeholder = fields.Char(
         required=True,
-        default='${object.}',
+        default="${object.}",
     )
     active = fields.Boolean(
         default=True,
