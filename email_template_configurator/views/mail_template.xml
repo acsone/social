@@ -16,6 +16,16 @@
                     name="groups"
                 >email_template_configurator.group_email_template_placeholders_manager</attribute>
             </xpath>
+            <page name="email_configuration" position="attributes">
+                <attribute name="groups">
+                    email_template_configurator.group_mail_template_manager
+                </attribute>
+            </page>
+            <page name="advanced_settings" position="attributes">
+                <attribute name="groups">
+                    email_template_configurator.group_mail_template_manager
+                </attribute>
+            </page>
             <xpath expr="//page[.//field[@name='model_object_field']]" position="after">
                 <page name="configured_placeholders" string="Configured Placeholders">
                     <group>

@@ -1,0 +1,112 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* email_template_configurator
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-16 14:36+0000\n"
+"PO-Revision-Date: 2022-05-16 14:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__active
+msgid "Active"
+msgstr ""
+
+#. module: email_template_configurator
+#: model_terms:ir.ui.view,arch_db:email_template_configurator.email_template_form_view
+msgid "Configured Placeholders"
+msgstr "Champs de fusion prédéfinis"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__display_name
+#: model:ir.model.fields,field_description:email_template_configurator.field_mail_template__display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: email_template_configurator
+#: model:ir.model,name:email_template_configurator.model_email_template_placeholder
+msgid "Email Template Placeholder"
+msgstr "Paramètre fictif de modèle de courriel"
+
+#. module: email_template_configurator
+#: model:ir.model,name:email_template_configurator.model_mail_template
+msgid "Email Templates"
+msgstr "Modèles d'emails"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__id
+#: model:ir.model.fields,field_description:email_template_configurator.field_mail_template__id
+msgid "ID"
+msgstr ""
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder____last_update
+#: model:ir.model.fields,field_description:email_template_configurator.field_mail_template____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: email_template_configurator
+#: model:res.groups,name:email_template_configurator.group_mail_template_manager
+msgid "Mail template: manager"
+msgstr "Templates de mail: gestionnaire"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__model_id
+#: model_terms:ir.ui.view,arch_db:email_template_configurator.email_template_placeholder_search_view
+msgid "Model"
+msgstr "Modèle"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_email_template_placeholder__placeholder
+#: model:ir.model.fields,field_description:email_template_configurator.field_mail_template__placeholder_id
+msgid "Placeholder"
+msgstr "Paramètre fictif"
+
+#. module: email_template_configurator
+#: model:ir.model.fields,field_description:email_template_configurator.field_mail_template__placeholder_value
+msgid "Placeholder Value"
+msgstr "Valeur du paramètre fictif"
+
+#. module: email_template_configurator
+#: model:ir.actions.act_window,name:email_template_configurator.email_template_placeholder_act_window
+#: model:ir.ui.menu,name:email_template_configurator.email_template_placeholder_menu
+msgid "Template Placeholders"
+msgstr ""
+
+#. module: email_template_configurator
+#: model:res.groups,name:email_template_configurator.group_email_template_placeholders_manager
+msgid "Template Placeholders Manager"
+msgstr ""
